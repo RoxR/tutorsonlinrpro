@@ -43,14 +43,6 @@ header.carousel .fill {
 }
 
 
-
-.fill {
-  &#laptop2 {
-    background-image: image-url('laptop2');
-  }
-}
-
-
 /* 404 Page Styles */
 
 .error-404 {
@@ -99,4 +91,16 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+
+
+.fill#laptop1 {
+  background-image: image-url('laptop1.jpg');
+}
+.fill#laptop2 {
+  background-image: image-url('laptop2.jpg');
+}
+.fill#laptop3 {
+  background-image: image-url('laptop3.jpg');
 }
