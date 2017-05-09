@@ -42,6 +42,15 @@ header.carousel .fill {
     background-size: cover;
 }
 
+
+
+.fill {
+  &#laptop2 {
+    background-image: image-url('laptop2');
+  }
+}
+
+
 /* 404 Page Styles */
 
 .error-404 {
