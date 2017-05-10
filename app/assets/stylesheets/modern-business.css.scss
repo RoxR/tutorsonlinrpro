@@ -32,7 +32,10 @@ header.carousel {
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
-    height: 100%;
+    height: 100%;   /* Below 4 lines should slow down carousel */
+
+  
+
 }
 
 header.carousel .fill {
@@ -95,12 +98,17 @@ footer {
 
 
 
-.fill#laptop1 {
-  background-image: image-url('laptop1.jpg');
+.fill#laptop4 {
+  background-image: image-url('laptop4.jpg');
 }
-.fill#laptop2 {
-  background-image: image-url('laptop2.jpg');
+.fill#laptop5 {
+  background-image: image-url('laptop5.jpg');
 }
-.fill#laptop3 {
-  background-image: image-url('laptop3.jpg');
+.fill#laptop6 {
+  background-image: image-url('laptop6.jpg');
+}
+
+
+.img-hover#pronunciation {
+  background-image: image-url('pronunciation.jpg');
 }
