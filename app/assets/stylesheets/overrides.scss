@@ -1,0 +1,28 @@
+html body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  &.courses {
+    .btn-secondary {
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.3;
+      text-align: justify;
+    }
+
+    .row {
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+}

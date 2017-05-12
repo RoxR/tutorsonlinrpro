@@ -9,7 +9,6 @@
 html,
 body {
     height: 100%;
-    font-family: Cambria;
 }
 
 body {
@@ -33,9 +32,9 @@ header.carousel {
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
-    height: 100%;   
+    height: 100%;
 
-  
+
 
 }
 
@@ -44,7 +43,6 @@ header.carousel .fill {
     height: 100%;
     background-position: center;
     background-size: cover;
-    font-family: Cambria;
 }
 
 
@@ -52,7 +50,6 @@ header.carousel .fill {
 
 .error-404 {
     font-size: 100px;
-    font-family: Cambria;
 }
 
 /* Pricing Page Styles */
@@ -61,14 +58,12 @@ header.carousel .fill {
     display: block;
     font-size: 50px;
     line-height: 50px;
-    font-family: Cambria;
 }
 
 .price sup {
     top: -20px;
     left: 2px;
     font-size: 20px;
-    font-family: Cambria;
 }
 
 .period {
@@ -125,14 +120,13 @@ footer {
 
 
 .img-responsive {
-
-image: url(c.jpg);
-position: relative;
+  image: url(c.jpg);
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
   height: 300px;
-     
+
 }
 
 
@@ -141,9 +135,8 @@ position: relative;
 }
 
 .img-responsive1 {
-
-image: url(businesseng.jpg);
-position: relative;
+  image: url(businesseng.jpg);
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
@@ -157,57 +150,42 @@ position: relative;
 
 
 .img-responsive {
-
-image: url(examenglish.jpg);
-position: relative;
+  image: url(examenglish.jpg);
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
   height: 300px;
-     
 }
 
 /* Navigation*/
 
-.navbar {
-    font-size: 1em;
-    font-family: Cambria;
-    font-weight: bold; 
-
-}
 
 
 /*navbar-header*/
 
-.page-header{
-    
-    font-weight: bold;
-    text-align: center;
+.page-header {
+  text-align: center;
 }
 
 .panel {
-    
+
 
 }
 
- h3 {
-        background:#00aff0;
-        color:#fff;
-        text-align:center;
-        font-size: 22px;
-        padding: 15px;
-    }
+h3 {
+  background:#00aff0;
+  color:#fff;
+  text-align:center;
+  font-size: 22px;
+  padding: 15px;
+}
 
 
- .panel {
-        background:#00aff0;
-        color:#fff;
-        text-align:center;
-        font-size: 16px;
-        padding: 15px;
-    }
-
-.font-content {
-    font-family: Cambria;
-    font-size: 15px;
+.panel {
+  background:#00aff0;
+  color:#fff;
+  text-align:center;
+  font-size: 16px;
+  padding: 15px;
 }
