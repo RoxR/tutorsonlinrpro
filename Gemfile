@@ -7,7 +7,7 @@ end
 ruby '2.3.1'
 
 gem 'rails', '~> 5.0.2'
-gem 'sqlite3'
+gem 'pg'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
