@@ -4,6 +4,16 @@ html body {
 }
 
 .container {
+  &.home {
+    .panel-body {
+      height: 190px;
+
+      .english-pronunciation-courses {
+        margin-top: 30px;
+      }
+    }
+  }
+
   &.courses {
     .btn-secondary {
       position: relative;
