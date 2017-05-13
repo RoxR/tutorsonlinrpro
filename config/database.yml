@@ -7,7 +7,7 @@ development:
   <<: *default
   database: tutorswithsean
   username: rails
-  password: Stryker1
+  password: rails
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -16,10 +16,10 @@ test:
   <<: *default
   database: tutorswithsean
   username: rails
-  password: Stryker1
+  password: rails
 
 production:
   <<: *default
   database: tutorswithsean
   username: rails
-  password: Stryker1
+  password: rails
