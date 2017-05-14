@@ -1,6 +1,21 @@
 html body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 1.6;
+
+  h2 {
+    margin-top: 4px;
+  }
+
+  h4 {
+    margin-bottom: 24px;
+  }
 }
 
 .container {
@@ -10,6 +25,28 @@ html body {
 
       .english-pronunciation-courses {
         margin-top: 30px;
+      }
+    }
+  }
+
+  &.pricing {
+    .price-tbl {
+      .tbl-block {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        border-radius: 10px;
+
+        h3 {
+          margin-top: 0;
+        }
+
+        .btn-primary {
+          margin-bottom: 6px;
+        }
+
+        .price {
+          font-size: 20px;
+        }
       }
     }
   }
@@ -33,6 +70,26 @@ html body {
       h3 {
         margin-top: 0;
       }
+    }
+  }
+
+  &.contact {
+    h3 {
+      background: none;
+      color: #000;
+    }
+
+    .col-lg-3 {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      text-align: center;
+    }
+
+    small {
+      margin-top: 10px;
+      display: block;
     }
   }
 }
