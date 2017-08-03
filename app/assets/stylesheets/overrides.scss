@@ -31,6 +31,61 @@ html body {
 
   &.pricing {
 
+    .pricing-vip {
+      border: none !important;
+      box-shadow: 0px 0px 16px #47C252;
+       .price {
+        background: #47C252;
+      }
+      .btn {
+        background: #47C252;
+      }
+      em {
+        color: #47C252;
+      }
+    }
+
+    .features-container {
+      position: relative;
+
+      .features-whats-included {
+        position: absolute;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding: 2px;
+        font-size: 13px;
+        color: #fff;
+        background: #333;
+        top: -23px;
+        left: 30px;
+        right: 30px;
+        height: 23px;
+        text-align: center;
+        z-index: 2;
+      }
+
+      .features-list {
+        position: relative;
+        top: -6px;
+
+        li {
+          line-height: 2em;
+          text-align: center;
+          padding: 10px 0;
+
+          &:first-child {
+            margin-top: 23px;
+          }
+        }
+        em {
+          font-weight: bold;
+        }
+        li:nth-child(odd) {
+          background: #f4f4f4;
+        }
+      }
+    }
+
     .price-tbl {
       .tbl-block {
         border: 1px solid rgba(0, 0, 0, 0.2);
@@ -65,6 +120,16 @@ html body {
         font-size: 24px;
         margin-top: 4px;
         margin-bottom: 4px;
+      }
+    }
+
+    .tbl-footer .btn {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      margin: 0px;
+
+      &:hover, &:active {
+        color: #fff !important;
       }
     }
   }
