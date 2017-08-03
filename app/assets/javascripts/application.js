@@ -13,4 +13,17 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
+//= require handlebars.runtime
+//= require_tree ./templates
 //= require_tree .
+
+$(document).on('click', '.pricing .tbl-footer .btn', function(e) {
+  e.preventDefault();
+  Popover.init();
+  Popover.show(HandlebarsTemplates['book']());
+  return false;
+});
+
+$(document).on('submit', '#book', function(e) {
+  Popover.exit();
+});

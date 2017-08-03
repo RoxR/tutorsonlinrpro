@@ -1,0 +1,77 @@
+h2 {
+  margin-top: 0;
+}
+
+// popover hidden
+#popover-backdrop,
+#popover-view-wrapper {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: background .5s ease;
+}
+
+#popover-backdrop {
+  background: rgba(255, 255, 255, 0);
+  min-height: 100%;
+  pointer-events: none;
+  width: 100%;
+  z-index: 1001;
+}
+
+#popover-view-wrapper {
+  overflow: scroll;
+  z-index: 1002;
+}
+
+#popover-view {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  margin: 45px * 2 auto;
+  opacity: 0;
+  padding: 20px;
+  transition: all .5s ease;
+  transform: scale(0.75);
+  z-index: 1003;
+}
+
+#popover-exit {
+  color: #333;
+  position: absolute;
+  transition: color .5s ease;
+  top: 14px;
+  right: 18px;
+
+  &:hover {
+    color: #f44336;
+    cursor: pointer;
+  }
+}
+
+
+
+// popover shown
+#popover-parent.showing-popover {
+  overflow: hidden;
+
+  #popover-backdrop {
+    background: rgba(150, 150, 150, 1);
+    pointer-events: all;
+  }
+
+  #popover-view-wrapper {
+    pointer-events: all;
+  }
+
+  #popover-view {
+    background: #fff;
+    transform: scale(1);
+    opacity: 1;
+  }
+}

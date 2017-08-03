@@ -18,6 +18,14 @@ html body {
   }
 }
 
+#popover-view {
+  width: 358px;
+
+  button {
+    width: 100%
+  }
+}
+
 .container {
   &.home {
     .panel-body {
@@ -128,7 +136,7 @@ html body {
       border-top-right-radius: 0px;
       margin: 0px;
 
-      &:hover, &:active {
+      &:hover, &:active, &:focus {
         color: #fff !important;
       }
     }
