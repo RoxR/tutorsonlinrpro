@@ -30,6 +30,7 @@ html body {
   }
 
   &.pricing {
+
     .price-tbl {
       .tbl-block {
         border: 1px solid rgba(0, 0, 0, 0.2);
@@ -38,15 +39,32 @@ html body {
 
         h3 {
           margin-top: 0;
+          margin-bottom: 0px;
         }
 
         .btn-primary {
           margin-bottom: 6px;
         }
+      }
+    }
 
-        .price {
-          font-size: 20px;
-        }
+    .price {
+      padding: 10px;
+
+      .price-amount {
+        font-size: 42px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+      }
+      .price-per {
+        font-size: 18px;
+        font-style: italic;
+        margin-top: 12px;
+      }
+      .price-month {
+        font-size: 24px;
+        margin-top: 4px;
+        margin-bottom: 4px;
       }
     }
   }
