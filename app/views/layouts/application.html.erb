@@ -12,28 +12,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
   <%= body_tag do %>
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
+    <%= render 'layouts/navigation' %>
     <%= render 'layouts/messages' %>
     <%= yield %>
     <%= render 'layouts/footer' %>
-        
-    <div id="popover-parent">
-      <button id="popover-show">Show Popover</button>
-      <div id='popover-backdrop'></div>
-      <div id='popover-view-wrapper'>
-        <div id='popover-view'>
-          <div class='popover-view-controls'>
-            <a href='#' id='popover-exit'>
-              <i class="fa fa-times fa-2x"></i>
-            </a>
-          </div>
-          <div id='popover-view-contents'>
-
-          </div>
-        </div>
-      </div>
-    </div>
+    <%= render 'shared/popover' %>
   <% end %>
 </html>

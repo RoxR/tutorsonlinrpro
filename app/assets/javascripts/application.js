@@ -17,13 +17,8 @@
 //= require_tree ./templates
 //= require_tree .
 
-$(document).on('click', '.pricing .tbl-footer .btn', function(e) {
+$(document).on('click', '.pricing-package .btn', function(e) {
   e.preventDefault();
   Popover.init();
   Popover.show(HandlebarsTemplates['book']());
-  return false;
-});
-
-$(document).on('submit', '#book', function(e) {
-  Popover.exit();
 });
